@@ -1,0 +1,16 @@
+{
+  "name": "airship-git-tools",
+  "description": "A collection of useful git utilities.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.12.2",
+    "inquirer": "^4.0.1",
+    "shelljs": "^0.7.8",
+    "simple-git": "^1.84.0"
+  },
+  "bin": {
+    "airship-git-delete": "bin/delete.js"
+  }
+}
